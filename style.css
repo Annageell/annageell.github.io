@@ -1,0 +1,524 @@
+*{
+    
+padding: 0;
+margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+body{
+
+
+    text-align: center;
+
+    font-family: 'Italiana';
+    padding: 0px;
+    background: linear-gradient(white, rgb(164, 127, 150));
+
+}
+
+header{
+background-image: url(img/fundo5.jpeg);
+    background-size: cover;
+    padding: 20px 4%;
+    
+}
+
+/*Imagem do topo*/
+.imagem img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 300px;
+    box-shadow: 0 0 50px rgb(237, 140, 140);
+ 
+}
+
+
+/*Titulo Giovana Almeida*/
+.name{
+
+    text-align: center;
+    margin-top: 30px;
+    color: #bc8f8f;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Italiana', serif;
+
+  
+}
+/*Redes  sociais*/
+.item{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'italiana';
+    color: rgba(232,202,179);
+    border: 1px solid rgba(232,202,179);;
+    border-radius: 50px;
+    width: 570px;
+    height: 60px;
+    margin-bottom: 7px;
+    font-size: 22px;
+    background:rgb(163, 160, 157);
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.icon, .email {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    cursor: pointer;
+    margin: 3px;
+    overflow: hidden;
+}
+.icon i, .email i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: rgb(163, 160, 157);;
+    color: rgba(232,202,179); 
+    cursor: pointer;
+}
+.icon span a{
+    list-style: none;
+    font-family: 'italiana';
+    float: right;
+    margin-right: 23px;
+    font-weight: 100;
+    color: #64574d;
+    line-height: 35px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.name-icon {
+    font-family: 'italiana';
+    margin-right: 40px;
+    float: right;
+    color: #64574d;
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 17px;
+}
+.icon:hover {
+    width: 125px;
+    background-color: rgb(163, 160, 157);
+    border-radius: 20px;
+}
+
+.icon:nth-child(1):hover i{
+    background: #0e76a8;
+}
+.icon:nth-child(2):hover i{
+    background: #5d1591;
+}
+.icon:nth-child(3):hover i{
+    background: #da2e8f;
+}
+.icon:nth-child(4):hover i{
+    background: #C13584;
+}
+.email:hover i{
+    background: white;
+}
+
+
+/*botão de contato*/
+
+.btn-contato{
+   
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+
+}
+
+
+.btn-contato button{
+ 
+    border: none;
+    background-color:rgb(163, 160, 157);
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgb(237, 140, 140);
+    margin: 0 20px;
+  justify-content: center;
+
+}
+
+.btn-contato button a{
+
+color: white;
+text-decoration: none;
+font-size: 17px;
+font-family: 'italiana';
+
+}
+
+.btn-contato button a:hover{
+    color: #bc8f8f;
+  
+    background: none;
+
+}
+
+
+/*sobre mim*/
+
+section .text{
+
+
+    padding:50px 10%;
+  
+
+}
+
+.text h2{
+
+
+    color: #bc8f8f;
+  padding: 100px;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+section .text p{
+
+    margin-top: 30px;
+    color: #bc8f8f;
+    font-size: 22px;
+    padding: 0 15%;
+   
+  
+}
+
+
+section .text img{
+    margin-bottom: 50px;
+    border-radius: 200px;
+
+}
+
+
+
+/*Titulo linguagens*/
+.langs h1{
+    margin-top: 200px;
+    text-transform: uppercase;
+    color: #bc8f8f;
+    font-size: 30px;
+   
+}
+
+/*Imagem de linguagens*/
+.img-langs{
+  
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.front img{
+
+    gap: 60px;
+    border-radius: 200px;
+    margin-top: 50px;
+    box-shadow: 0 0 50px rgb(176, 176, 176);
+    background-color: #FFE4E1;
+    position: relative;
+   animation-name: surgir;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes surgir{
+
+    from{
+        opacity: 0; 
+        transform: rotate(45deg);
+    
+    }
+    to{
+opacity: 1;
+    }
+}
+
+
+/*Projetos*/
+
+
+section.projetos{
+    margin-top: 100px;
+    padding: 40px 4%;
+    margin-top: 200px;
+}
+
+section .project img{
+ display: inline-block;
+}
+
+
+
+.projetos img{
+
+    margin-top: 50px;
+    border-radius: 300px;
+    display: inline-block;
+}
+
+.projetos h1{
+
+   margin-top: 200px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+ 
+}
+
+
+.projetos img a{
+    color: white;
+    text-decoration: none;
+    font-size: 0px;
+    background-color: #bc8f8f;
+    padding: 10px 5px;
+    border-radius: 15px;
+    font-family: 'italiana';
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.projetos h3{
+
+    margin-top: 30px;
+}
+
+
+/*estilizando link nas imagens*/
+.container {
+    position: relative;
+    display: inline-block; /* Para o elemento se ajustar ao conteúdo */
+}
+
+.link-sobre-imagem {
+    position: absolute;
+    top: 107%; /* Define a posição vertical do link (centro) */
+    left: 50%; /* Define a posição horizontal do link (centro) */
+    transform: translate(-50%, -50%); /* Centraliza o link com base no centro do elemento pai */
+    font-size: 22px;
+   border-radius: 20px;
+    color: white; /* Cor do texto do link */
+    padding: 10px 20px; /* Espaçamento do link */
+    text-decoration: none; /* Remove a formatação de link padrão */
+    z-index: 1; /* Para posicionar o link sobre a imagem */
+}
+
+.link-sobre-imagem:hover {
+color: gray;
+}
+
+
+/*formulário*/
+section .contato{
+   
+    padding: 70px 11%;
+    background-color:#bc8f8f;
+    border-radius: 50px;
+
+
+}
+
+.title-2{
+   
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+.contato h2{
+    margin-top: 200px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'italiana';
+    text-align: center;
+
+}
+
+.contato{
+
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+form{
+    max-width:400px ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgb(196, 189, 189);
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+
+form textarea{
+    resize: none;
+}
+
+form input::placeholder{
+    color: white;
+}
+
+form .btn-enviar{
+
+    margin-top: 30px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: rgb(196, 189, 189);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+
+form .btn-enviar input:hover{
+    color:#bc8f8f; 
+    transform: scale(1.2);
+    
+}
+
+
+
+
+
+
+/*footer*/
+
+footer{
+
+    
+    padding: 80px 4%;
+    margin-top: 100px;
+  }
+  
+.mail a{
+  
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.mail i{
+    
+    color: white;
+    font-size: 30px;
+}
+
+.mail a:hover{
+    color: #bc8f8f;
+}
+
+
+.creditos{
+ 
+
+    margin-top: 60px;
+    color: black;
+    text-align: start;
+    font-size: 30px;
+    padding: 20px 4%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.creditos a{
+    display: block;
+    margin-top: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.creditos a:hover{
+
+color: black;
+}
+
+.line{
+  border-color: 5px wheat;
+}
+
+
+
+/*Responsividade*/
+
+@media screen and (max-width:1020px) {
+   
+.langs{
+    display: block;
+}
+
+.redes-sociais{
+    margin-top: 20px;
+}
+
+.img-image img{
+width: 100%;
+display: block;
+
+}
+
+.imagem{
+
+    width: 100;
+}
+.text img{
+    width: 200px;
+    height: 200px;
+}
+
+section .text h2{
+ margin-right: 10px;
+}
+
+.btn-contato button{
+  line-height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+}
+
+
+
